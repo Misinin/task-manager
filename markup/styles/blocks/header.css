@@ -1,0 +1,48 @@
+/* Header */
+
+.header {
+  display: grid;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+@media (max-width: 730px) {
+  .header {
+    padding-left: 16px;
+  }
+}
+
+@media (min-width: 730px) {
+  .header {
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+/* Logo */
+
+@media (max-width: 730px) {
+  .header__logo {
+    z-index: 1;
+  }
+}
+
+/* Menu */
+
+@media (max-width: 730px) {
+  .header__menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media (min-width: 730px) {
+  .header__menu {
+    align-self: center;
+  }
+}

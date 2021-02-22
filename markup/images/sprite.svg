@@ -1,0 +1,9 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="cross">
+    <path d="M7 7l18 18M7 25L25 7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="menu">
+    <path d="M28 10H4a1 1 0 010-2h24a1 1 0 010 2zm0 7H4a1 1 0 010-2h24a1 1 0 010 2zm0 7H4a1 1 0 010-2h24a1 1 0 010 2z"></path>
+    <path fill="none" d="M0 0h32v32H0z"></path>
+  </symbol>
+</svg>

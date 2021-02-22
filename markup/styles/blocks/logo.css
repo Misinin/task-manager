@@ -1,0 +1,67 @@
+/* Logo */
+
+.logo {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  column-gap: 8px;
+
+  line-height: 1;
+}
+
+/* image */
+
+@media (min-width: 731px) {
+  /*сделано для изоляции стиля, под размер экрана*/
+
+  .logo__image {
+    grid-row: span 2;
+  }
+}
+
+/* Title */
+
+.logo__image {
+    width: 48px;
+    height: 48px;
+}
+
+.logo__title {
+  margin: 0;
+
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+}
+
+@media (max-width: 730px) {
+  .logo__title {
+    align-self: center;
+  }
+}
+
+@media (min-width: 731px) {
+  .logo__title {
+    align-self: end;
+  }
+}
+
+.logo__tagline {
+  margin: 0;
+
+  font-style: 12px;
+  letter-spacing: 0.05em;
+
+  text-transform: uppercase;
+}
+
+@media (max-width: 730px) {
+  .logo__tagline {
+    display: none;
+  }
+}
+
+@media (min-width: 730px) {
+  .logo__tagline {
+    align-self: center;
+  }
+}

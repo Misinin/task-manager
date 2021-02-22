@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss-csso": "^5.0.0",
+    "postcss-import": "^14.0.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1"
+  }
+}
